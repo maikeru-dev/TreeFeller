@@ -1,0 +1,4 @@
+name: TreeFeller
+version: '${project.version}'
+main: eu.maikeru.treefeller.TreeFeller
+api-version: 1.20
