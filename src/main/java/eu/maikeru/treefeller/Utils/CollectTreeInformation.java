@@ -17,6 +17,7 @@ public class CollectTreeInformation {
     Material initialBlockType;
     private short logCount = 0;
     private short leavesCount = 0;
+    private LinkedTree<Location> linkedTree;
     // Definition of a tree: A bunch of logs stacked on a dirt block, surrounded by persistent=false leaves.
 
     // Find out if the surrounding area contains logs surrounded by persistent=false leaves or air.
